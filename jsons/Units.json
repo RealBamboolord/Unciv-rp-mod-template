@@ -1,0 +1,50 @@
+[
+  {
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"upgradesTo": "Ranger",
+		"obsoleteTech": "Education",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Ranger",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 9,
+		"cost": 75,
+		"upgradesTo": "Explorer",
+		"requiredTech": "Horseback Riding",
+		"obsoleteTech": "Education",
+		"uniques": ["Never appears as a Barbarian unit","Can move after attacking"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Explorer",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 16,
+		"cost": 110,
+		"requiredTech": "Education",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Never appears as a Barbarian unit","Can move after attacking","Founds a new city <on foreign continents>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "UU 1",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 16,
+		"cost": 110,
+		"requiredTech": "Education",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Never appears as a Barbarian unit","Unbuildable","Will not be displayed in Civilopedia"],
+		"attackSound": "nonmetalhit"
+	},
+]
