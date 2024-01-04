@@ -1,0 +1,12 @@
+[
+	{
+		"name": "English Embassy",
+		"culture": 1,
+		"cost": 120,
+		"hurryCostModifier": 40,
+		"maintenance": 2,
+		"uniques": [
+      "Destroyed when the city is captured","Instantly consumes [1] [English Embassy]","Limited to [1] per Civilization",
+      "Cannot be purchased","Unbuildable <for [England]>","Triggers a global alert upon completion"]
+	},
+]
