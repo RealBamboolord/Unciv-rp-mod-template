@@ -26,14 +26,14 @@
 				"name": "Civil Service",
 				"row": 5,
 				"prerequisites": ["Currency","Horseback Riding","Drama and Poetry"],
-				"uniques": ["Enables the Council"],
+				"uniques": ["Comment [Enables the Council]"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
 			{
 				"name": "Guilds",
 				"row": 7,
 				"prerequisites": ["Currency"],
-				"uniques": ["Enables conversion of city production to [Gold]","Enables Embassies"],
+				"uniques": ["Enables conversion of city production to [Gold]","Comment [Enables Embassies]"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
 		]
