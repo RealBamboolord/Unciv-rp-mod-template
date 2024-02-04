@@ -9,4 +9,65 @@
       "Destroyed when the city is captured","Instantly consumes [1] [English Embassy]","Limited to [1] per Civilization",
       "Cannot be purchased","Unbuildable <for [England]>","Triggers a global alert upon completion","Only available <with [English Embassy>"]
 	},
+	{
+		"name": "Peaceful - Scientific",
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia","Automatically built in all cities where it is buildable",
+			"Science gained from research agreements [+25]%", //peaceful interaction bonus
+			"Production to [Science] conversion in cities changed by [+25]%",
+			"[+1 Science, +1 Happiness] from every [Embassy]", //Embassy bonus
+			"[+25]% of excess happiness converted to [Science]", //Peaceful bonus happiness
+			"Only available <for [Peaceful - Scientific]> <in cities with a [Palace]> <in cities without a [Classification]>",
+			"Destroyed when the city is captured","Classification"],
+	},
+	{
+		"name": "Peaceful - Cultural",
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia","Automatically built in all cities where it is buildable",
+			"Empire enters a [2]-turn Golden Age <upon declaring friendship>", //peaceful interaction bonus
+			"[-10]% Culture cost of adopting new Policies",
+			"[+2 Culture] from every [Embassy]", //Embassy bonus
+			"[+25]% of excess happiness converted to [Culture]", //Peaceful bonus happiness
+			"Only available <for [Peaceful - Scientific]> <in cities with a [Palace]> <in cities without a [Classification]>",
+			"Destroyed when the city is captured","Classification"],
+	},
+	{
+		"name": "Peaceful - Merchants",
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia","Automatically built in all cities where it is buildable",
+			"Gifts of Gold to City-States generate [+25]% more Influence",
+			"Retain [+40]% of the happiness from a luxury after the last copy has been traded away", //For all merchant states, equates to 2 happiness vs 5,
+			"[+2 Gold, +1 Happiness] from every [Embassy]", //Embassy bonus
+			"[+25]% of excess happiness converted to [Gold]", //Peaceful bonus happiness
+			"Only available <for [Peaceful - Diplomatic]> <in cities with a [Palace]> <in cities without a [Classification]>",
+			"Destroyed when the city is captured","Classification"],
+	},
+	{
+		"name": "Peaceful - Diplomatic",
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia","Automatically built in all cities where it is buildable",
+			"When declaring friendship, both parties gain a [15]% boost to great person generation", //peaceful interaction bonus
+			"Resting point for Influence with City-States is increased by [15]",
+			"[+1 Gold, +1 Culture, +1 Happiness] from every [Embassy]", //Embassy bonus
+			"[+25]% of excess happiness converted to [Gold]", //Peaceful bonus happiness
+			"Only available <for [Peaceful - Diplomatic]> <in cities with a [Palace]> <in cities without a [Classification]>",
+			"Destroyed when the city is captured","Classification"],
+	},
+	{
+		"name": "Peaceful - Religious",
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia","Automatically built in all cities where it is buildable",
+			"Gain enough Faith for [10]% of a Great Prophet <upon declaring friendship>", //peaceful interaction bonus
+			"Religion naturally spreads to cities [2] tiles away",
+			"[-20]% Faith cost of generating Great Prophet equivalents", //general religious bonus
+			"[+2 Faith, +1 Culture] from every [Embassy]", //Embassy bonus
+			"[+25]% of excess happiness converted to [Faith]", //Peaceful bonus happiness
+			"Only available <for [Peaceful - Diplomatic]> <in cities with a [Palace]> <in cities without a [Classification]>",
+			"Destroyed when the city is captured","Classification"],
+	},
 ]
