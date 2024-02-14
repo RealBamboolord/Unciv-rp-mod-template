@@ -1,14 +1,290 @@
 [
+	//Unique choices
 	{
-		"name": "English Embassy",
-		"culture": 1,
-		"cost": 120,
-		"hurryCostModifier": 40,
-		"maintenance": 2,
+		"name": "UB 1", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
 		"uniques": [
-      "Destroyed when the city is captured","Instantly consumes [1] [English Embassy]","Limited to [1] per Civilization",
-      "Cannot be purchased","Unbuildable <for [England]>","Triggers a global alert upon completion","Only available <with [English Embassy>"]
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
 	},
+	{
+		"name": "UB 2", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 3", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 4", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 5", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 6", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 7", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 8", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 9", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 10", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 11", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 12", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 13", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 14", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 15", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 16", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 17", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 18", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 19", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 20", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 21", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 22", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 23", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 24", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 25", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 26", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 27", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 28", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 29", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 30", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+	{
+		"name": "UB 31", //rename to: 
+		"cost": 0,
+		"uniqueTo": "Spectator",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable"]
+	},
+//Classification Bonuses
+
+	{
+		"name": "Traditional Kingdom",
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia","Automatically built in all cities where it is buildable",
+			"[+15]% Production when constructing [Culture] wonders [in capital]",
+			"[3] units cost no maintenance",
+			"[+1 Culture] from every [Walls]",
+			"[+1 Gold, +1 Culture] from each Trade Route",
+			"Only available <for [Traditional Kingdom]> <in cities with a [Palace]> <in cities without a [Classification]>",
+			"Destroyed when the city is captured","Classification"],
+	},
+	{
+		"name": "Isolationist",
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia","Automatically built in all cities where it is buildable",
+			"[+10]% [Science] [in capital]",
+			"[+10]% [Culture] [in all cities]",
+			"Gain Access to Research Funding instead of Research Agreements","Science gained from research agreements [-100]%",
+			"Only available <for [Isolationist]> <in cities with a [Palace]> <in cities without a [Classification]>",
+			"Destroyed when the city is captured","Classification"],
+	},
+	{
+		"name": "Free Traders",
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia","Automatically built in all cities where it is buildable",
+			"Retain [+40]% of the happiness from a luxury after the last copy has been traded away", //For all merchant states, equates to 2 happiness vs 5,
+			"[+10]% [Gold] [in all cities]",
+			"[Gold] cost of purchasing [Melee] units [-15]%","[Culture] cost of purchasing [Melee] units [-15]%","[Faith] cost of purchasing [Melee] units [-15]%",
+			"Only available <for [Free Traders]> <in cities with a [Palace]> <in cities without a [Classification]>",
+			"Destroyed when the city is captured","Classification"],
+	},
+	//peaceful ones
 	{
 		"name": "Peaceful - Scientific",
 		"cost": 0,
@@ -19,30 +295,6 @@
 			"[+1 Science, +1 Happiness] from every [Embassy]", //Embassy bonus
 			"[+25]% of excess happiness converted to [Science]", //Peaceful bonus happiness
 			"Only available <for [Peaceful - Scientific]> <in cities with a [Palace]> <in cities without a [Classification]>",
-			"Destroyed when the city is captured","Classification"],
-	},
-	{
-		"name": "Peaceful - Cultural",
-		"cost": 0,
-		"uniques": [
-			"Will not be displayed in Civilopedia","Automatically built in all cities where it is buildable",
-			"Empire enters a [2]-turn Golden Age <upon declaring friendship>", //peaceful interaction bonus
-			"[-10]% Culture cost of adopting new Policies",
-			"[+2 Culture] from every [Embassy]", //Embassy bonus
-			"[+25]% of excess happiness converted to [Culture]", //Peaceful bonus happiness
-			"Only available <for [Peaceful - Scientific]> <in cities with a [Palace]> <in cities without a [Classification]>",
-			"Destroyed when the city is captured","Classification"],
-	},
-	{
-		"name": "Peaceful - Merchants",
-		"cost": 0,
-		"uniques": [
-			"Will not be displayed in Civilopedia","Automatically built in all cities where it is buildable",
-			"Gifts of Gold to City-States generate [+25]% more Influence",
-			"Retain [+40]% of the happiness from a luxury after the last copy has been traded away", //For all merchant states, equates to 2 happiness vs 5,
-			"[+2 Gold, +1 Happiness] from every [Embassy]", //Embassy bonus
-			"[+25]% of excess happiness converted to [Gold]", //Peaceful bonus happiness
-			"Only available <for [Peaceful - Diplomatic]> <in cities with a [Palace]> <in cities without a [Classification]>",
 			"Destroyed when the city is captured","Classification"],
 	},
 	{
@@ -57,17 +309,75 @@
 			"Only available <for [Peaceful - Diplomatic]> <in cities with a [Palace]> <in cities without a [Classification]>",
 			"Destroyed when the city is captured","Classification"],
 	},
+	//Religious
 	{
-		"name": "Peaceful - Religious",
+		"name": "Religious Expantionist",
 		"cost": 0,
 		"uniques": [
 			"Will not be displayed in Civilopedia","Automatically built in all cities where it is buildable",
-			"Gain enough Faith for [10]% of a Great Prophet <upon declaring friendship>", //peaceful interaction bonus
-			"Religion naturally spreads to cities [2] tiles away",
-			"[-20]% Faith cost of generating Great Prophet equivalents", //general religious bonus
-			"[+2 Faith, +1 Culture] from every [Embassy]", //Embassy bonus
-			"[+25]% of excess happiness converted to [Faith]", //Peaceful bonus happiness
-			"Only available <for [Peaceful - Diplomatic]> <in cities with a [Palace]> <in cities without a [Classification]>",
+			"Religion naturally spreads to cities [1] tiles away",
+			"May buy [Settler] units for [100] [Faith] [in holy cities] at an increasing price ([50])",
+			"[+1 Faith] from every [Temple] <starting from the [Medieval era]>",
+			"[+1 Gold, +1 Culture] from each Trade Route",
+			"[+1 Gold, +1 Faith] from every [Embassy]", //Embassy bonus
+			"Only available <for [Religious Expantionist]> <in cities with a [Palace]> <in cities without a [Classification]>",
 			"Destroyed when the city is captured","Classification"],
+	},
+	//Unpeacefuls
+	{
+		"name": "Warmonger",
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia","Automatically built in all cities where it is buildable",
+			"[+15]% Production when constructing [Military] units [in all cities]", //General Offensive Bonus
+			"[Great General] is earned [+20]% faster", //Also general Bonus
+			"Damage is ignored when determining unit Strength <for [Land] units>",
+			"[+15]% Strength <vs cities> <when attacking> <for [{Melee} {Land}] units>",
+			"Only available <for [Warmonger]> <in cities with a [Palace]> <in cities without a [Classification]>",
+			"Destroyed when the city is captured","Classification"],
+	},
+	{
+		"name": "Raider",
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia","Automatically built in all cities where it is buildable",
+			"[+15]% Production when constructing [Military] units [in all cities]", //General Offensive Bonus
+			"[Great General] is earned [+20]% faster", //Also general Bonus
+			"[1] Movement point cost to disembark <for [Land] units>",
+			"[{Melee} {Water}] units gain the [Coastal Raider I] promotion",
+			"[Privateer] units gain the [Coastal Raider II] promotion",
+			"[Sea Bagger] units gain the [Coastal Raider III] promotion",
+			"Only available <for [Raider]> <in cities with a [Palace]> <in cities without a [Classification]>",
+			"Destroyed when the city is captured","Classification"],
+	},
+	{
+		"name": "Riot State - Defensive",
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia","Automatically built in all cities where it is buildable",
+			"[+15]% Production when constructing [Military] units [in all cities]", //General Offensive Bonus
+			"[Great General] is earned [+20]% faster", //Also general Bonus
+			"[+25]% Strength for cities",
+			"[+20]% Strength <when defending> <in [your] tiles>",
+			"Gain a free [Revolution] [in this city]",
+			"Only available <for [Riot State - Defensive]> <in cities with a [Palace]> <in cities without a [Classification]>",
+			"Destroyed when the city is captured","Classification"],
+	},
+	{
+		"name": "Revolution",
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unbuildable",
+			"[-75]% [Culture] [in all cities]",
+			"[-50]% Production when constructing [All] wonders [in all cities]",
+			"[+100]% City-State Influence degradation",
+			"Gifts of Gold to City-States generate [-50]% more Influence",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-25]% construction time for [Fort] improvements",
+                        "May not generate great prophet equivalents naturally",
+			"All newly-trained [{Military} {Land}] units [in all cities] receive the [Poor Training] promotion",
+			"[-20]% Strength <when attacking> <in [Foreign Land] tiles>",
+			"Destroyed when the city is captured","Triggers a global alert upon completion"],
 	},
 ]
