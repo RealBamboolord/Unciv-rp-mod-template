@@ -1,13 +1,73 @@
 [
-
+	//Unique choices
+	{
+        	"name": "UP 1",
+       		"uniques": ["Comment [Shh]"]
+	},
+	{
+        	"name": "UP 2",
+       		"uniques": ["Comment [Shh]"]
+	},
+	{
+        	"name": "UP 3",
+       		"uniques": ["Comment [Shh]"]
+	},
+	{
+        	"name": "UP 4",
+       		"uniques": ["Comment [Shh]"]
+	},
+	{
+        	"name": "UP 5",
+       		"uniques": ["Comment [Shh]"]
+	},
+	{
+        	"name": "UP 6",
+       		"uniques": ["Comment [Shh]"]
+	},
+	{
+        	"name": "UP 7",
+       		"uniques": ["Comment [Shh]"]
+	},
+	{
+        	"name": "UP 8",
+       		"uniques": ["Comment [Shh]"]
+	},
+	{
+        	"name": "UP 9",
+       		"uniques": ["Comment [Shh]"]
+	},
+	{
+        	"name": "UP 10",
+       		"uniques": ["Comment [Shh]"]
+	},
+	{
+        	"name": "UP 11",
+       		"uniques": ["Comment [Shh]"]
+	},
+	{
+        	"name": "UP 12",
+       		"uniques": ["Comment [Shh]"]
+	},
+	{
+        	"name": "UP 13",
+       		"uniques": ["Comment [Shh]"]
+	},
+	{
+        	"name": "UP 14",
+       		"uniques": ["Comment [Shh]"]
+	},
+	{
+        	"name": "UP 15",
+       		"uniques": ["Comment [Shh]"]
+	},
 	{
 		"name": "Knightly Order",
 		"uniques": ["Religious Unit", "Can Spread Religion <for [2] movement> <once>"]
 	},
-    {
-        "name": "Unexpected",
-        "uniques": ["Can remove other religions from cities <in [Friendly] tiles> <[1] additional time(s)>"]
-    },
+    	{
+        	"name": "Unexpected",
+        	"uniques": ["Can remove other religions from cities <in [Friendly] tiles> <[1] additional time(s)>"]
+    	},
 	{
 		"name": "Royal Mission",
 		"uniques": ["Can Spread Religion <[2] additional time(s)>"]
