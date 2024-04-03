@@ -12,16 +12,10 @@
             "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
             "Always Fertility [-1] for Map Generation",
             "Considered [Undesirable] when determining start locations",
+            "Becomes [Magma Ravine] when adjacent to [Volcano]",
             "Becomes [Tundra] when adjacent to [River]",
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
             "Never receives any resources <in [Hill] tiles>"]
-	},
-	 to Fertility for Map Generation",
-            "A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
-            "Considered [Food] when determining start locations <in [Tundra] Regions>",
-            "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
-            "Becomes [Plains] when adjacent to [River]",
-            "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Desert",
@@ -35,6 +29,7 @@
             "Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
             "[+1] to Fertility for Map Generation",
             "A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
+            "Becomes [Magma Ravine] when adjacent to [Volcano]",
             "Becomes [Flood plains] when adjacent to [River]",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
             "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
@@ -153,6 +148,44 @@
                 "uniques": [
             "Rough terrain",
 	    "Rare feature",
+		]
+	},
+	{
+		"name": "Geothermal Plains",
+		"type": "TerrainFeature",
+		"food": 2,
+		"movementCost": 1,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Tundra"],
+		"uniques": [
+			"Considered [Desirable] when determining start locations","Rare feature",
+			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{
+		"name": "Quicksand",
+		"type": "TerrainFeature",
+		"movementCost": 10,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": -0.2,
+		"occursOn": ["Desert"],
+		"uniques": [
+			"Considered [Undesirable] when determining start locations","Rare feature",
+			"Never receives any resources"
+		]
+	},
+	{
+		"name": "Rocky Waters",
+		"type": "TerrainFeature",
+		"movementCost": 4,
+		"unbuildable": true,
+		"defenceBonus": -0.15,
+		"occursOn": ["Ocean","Coast"],
+		"uniques": [
+			"Rare feature",
 		]
 	},
 ]
