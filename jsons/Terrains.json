@@ -1,5 +1,45 @@
 [
 	{
+		"name": "Snow",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [230, 238, 255], //Darker229, 229, 255
+		"uniques": [
+            "Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+            "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+            "Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
+            "Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
+            "Always Fertility [-1] for Map Generation",
+            "Considered [Undesirable] when determining start locations",
+            "Becomes [Tundra] when adjacent to [River]",
+            "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Never receives any resources <in [Hill] tiles>"]
+	},
+	 to Fertility for Map Generation",
+            "A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
+            "Considered [Food] when determining start locations <in [Tundra] Regions>",
+            "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
+            "Becomes [Plains] when adjacent to [River]",
+            "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
+		"name": "Desert",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [230, 172, 0],
+		"uniques": ["Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
+            "Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
+            "Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
+            "Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
+            "[+1] to Fertility for Map Generation",
+            "A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
+            "Becomes [Flood plains] when adjacent to [River]",
+            "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
+            "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
 		"name": "Dragon Peak",
 		"type": "TerrainFeature",
 		"science": 1,
@@ -32,6 +72,7 @@
 		"gold": 1,
 		"RGB": [230, 238, 255],
 		"uniques": [
+	    "[+2] Strength for cities built on this terrain",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
          	]
@@ -46,7 +87,7 @@
             "Considered [Desirable] when determining start locations",
             "Only [Oil well] improvements may be built on this tile","Rough terrain",
 	    "Becomes [Plains] when adjacent to [River]",
-            "Every [25] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Every [22] tiles with this terrain will receive a major deposit of a strategic resource.",
          	]
 	},
 	{
@@ -56,8 +97,9 @@
 		"food": 2,
 		"RGB": [230, 238, 255],
 		"uniques": [
+	    "[-1] Strength for cities built on this terrain",
             "Considered [Desirable] when determining start locations",
-            "Every [32] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Every [20] tiles with this terrain will receive a major deposit of a strategic resource.",
          	]
 	},
 	{
@@ -67,9 +109,10 @@
 		"production": 2,
 		"RGB": [230, 238, 255],
 		"uniques": [
+            "[+2] Strength for cities built on this terrain",
             "Rough terrain","Considered [Desirable] when determining start locations",
             "Becomes [Grassland] when adjacent to [River]",
-            "Every [22] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Every [25] tiles with this terrain will receive a major deposit of a strategic resource.",
          	]
 	},
 
@@ -98,7 +141,18 @@
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
 			"Considered [Desirable] when determining start locations",
-			"Every [32] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [20] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{
+		"name": "Volcano",
+		"type": "TerrainFeature",
+		"movementCost": 3,
+		"RGB": [230, 238, 255],
+		"occursOn": ["Coast"]
+                "uniques": [
+            "Rough terrain",
+	    "Rare feature",
 		]
 	},
 ]
