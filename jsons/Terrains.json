@@ -33,7 +33,7 @@
 		"RGB": [230, 238, 255],
 		"uniques": [
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
-            "Every [15] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
          	]
 	},
 	{
@@ -44,7 +44,7 @@
 		"RGB": [230, 238, 255],
 		"uniques": [
             "Considered [Desirable] when determining start locations",
-            "Only [Oil well] improvements may be built on this tile",
+            "Only [Oil well] improvements may be built on this tile","Rough terrain",
 	    "Becomes [Plains] when adjacent to [River]",
             "Every [25] tiles with this terrain will receive a major deposit of a strategic resource.",
          	]
@@ -57,7 +57,7 @@
 		"RGB": [230, 238, 255],
 		"uniques": [
             "Considered [Desirable] when determining start locations",
-            "Every [28] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Every [32] tiles with this terrain will receive a major deposit of a strategic resource.",
          	]
 	},
 	{
@@ -67,20 +67,38 @@
 		"production": 2,
 		"RGB": [230, 238, 255],
 		"uniques": [
-            "Considered [Desirable] when determining start locations",
+            "Rough terrain","Considered [Desirable] when determining start locations",
             "Becomes [Grassland] when adjacent to [River]",
-            "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Every [22] tiles with this terrain will receive a major deposit of a strategic resource.",
+         	]
+	},
+
+	//Features
+	{
+		"name": "Shallow Waters",
+		"type": "TerrainFeature",
+		"movementCost": 3,
+		"RGB": [230, 238, 255],
+		"occursOn": ["Coast"]
+                "uniques": [
+            "Rough terrain",
+            "Every [15] tiles with this terrain will receive a major deposit of a strategic resource.",
          	]
 	},
 	{
-		"name": "Shallow Waters",
-		"type": "Water",
-		"movementCost": 1,
-		"food": 1,
-		"RGB": [230, 238, 255],
+		"name": "Mangrove Forest",
+		"type": "TerrainFeature",
+		"food": 2,
+		"movementCost": 3,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Mangrove Swamp"],
 		"uniques": [
-            "Coast",
-            "Every [12] tiles with this terrain will receive a major deposit of a strategic resource.",
-         	]
+			"Rough terrain", "Vegetation",
+			"Blocks line-of-sight from tiles at same elevation",
+			"Considered [Desirable] when determining start locations",
+			"Every [32] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
 	},
 ]
