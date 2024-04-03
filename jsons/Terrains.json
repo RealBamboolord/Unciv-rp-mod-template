@@ -1,0 +1,28 @@
+[
+	{
+		"name": "Dragon Peak",
+		"type": "TerrainFeature",
+		"science": 1,
+		"gold": 2,
+		"production": 2,
+		"unbuildable": true,
+		"impassable": true,
+		"uniques": ["[+1 Science] <starting from the [Industrial era]>","Doesn't generate naturally"],
+		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Mountain"]
+	},
+	{
+		"name": "Mount Dragonjaw",
+		"type": "NaturalWonder",
+		"production": 4,
+		"gold": 3,
+		"occursOn": ["Plains","Desert","Tundra"],
+		"uniques": ["Grants [Formation I] ([bonus vs mounted units]) to adjacent [{Military} {Land}] units for the rest of the game"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "Ancient Dragon spitting fire, scorching the land beyond the sea, turning them into deserts.\nWhen the dragon died, it's body got burried under the moving landmasses. Only the jaws remain above the surface."}
+		]
+	}
+]
