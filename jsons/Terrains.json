@@ -29,17 +29,58 @@
 		"name": "Mesa Desert",
 		"type": "Land",
 		"movementCost": 1,
-		"RGB": [230, 238, 255], //Darker229, 229, 255
+		"gold": 1,
+		"RGB": [230, 238, 255],
 		"uniques": [
-            "Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
-            "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
-            "Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
-            "Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
-            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
-            "Always Fertility [-1] for Map Generation",
-            "Considered [Undesirable] when determining start locations",
-            "Becomes [Tundra] when adjacent to [River]",
+            "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
+            "Every [15] tiles with this terrain will receive a major deposit of a strategic resource.",
+         	]
+	},
+	{
+		"name": "Magma Ravine",
+		"type": "Land",
+		"movementCost": 1,
+		"production": 1,
+		"RGB": [230, 238, 255],
+		"uniques": [
+            "Considered [Desirable] when determining start locations",
+            "Only [Oil well] improvements may be built on this tile",
+	    "Becomes [Plains] when adjacent to [River]",
+            "Every [25] tiles with this terrain will receive a major deposit of a strategic resource.",
+         	]
+	},
+	{
+		"name": "Mangrove Swamp",
+		"type": "Land",
+		"movementCost": 3,
+		"food": 2,
+		"RGB": [230, 238, 255],
+		"uniques": [
+            "Considered [Desirable] when determining start locations",
+            "Every [28] tiles with this terrain will receive a major deposit of a strategic resource.",
+         	]
+	},
+	{
+		"name": "Highlands",
+		"type": "Land",
+		"movementCost": 2,
+		"production": 2,
+		"RGB": [230, 238, 255],
+		"uniques": [
+            "Considered [Desirable] when determining start locations",
+            "Becomes [Grassland] when adjacent to [River]",
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
-            "Never receives any resources <in [Hill] tiles>"]
+         	]
+	},
+	{
+		"name": "Shallow Waters",
+		"type": "Water",
+		"movementCost": 1,
+		"food": 1,
+		"RGB": [230, 238, 255],
+		"uniques": [
+            "Coast",
+            "Every [12] tiles with this terrain will receive a major deposit of a strategic resource.",
+         	]
 	},
 ]
