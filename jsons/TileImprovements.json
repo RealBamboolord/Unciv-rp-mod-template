@@ -50,4 +50,10 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Will not be displayed in Civilopedia", "Unbuildable"]
 	},
+	{
+		"name": "Aviary",
+		"turnsToBuild": 5,
+		"techRequired": "Trapping",
+		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"]
+	}
 ]
