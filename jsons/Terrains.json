@@ -86,8 +86,8 @@
          	]
 	},
 	{
-		"name": "Mangrove Swamp",
-		"type": "Land",
+		"name": "Shallow Water",
+		"type": "Water",
 		"movementCost": 3,
 		"food": 2,
 		"RGB": [230, 238, 255],
@@ -131,7 +131,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Mangrove Swamp"],
+		"occursOn": ["Coast"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
