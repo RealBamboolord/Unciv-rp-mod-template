@@ -32,11 +32,88 @@ TileSets/FantasyHex/Tiles/Dragon Peak
   orig: 32, 36
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Geothermal Plains
+  rotate: false
+  xy: 76, 100
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grand MesaM
+  rotate: false
+  xy: 256, 208
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Highlands
+  rotate: false
+  xy: 852, 829
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Magma Ravine
+  rotate: false
+  xy: 924, 920
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mangrove Forest
+  rotate: false
+  xy: 780, 707
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mesa Desert
+  rotate: false
+  xy: 152, 144
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mesa DesertHill
+  rotate: false
+  xy: 76, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Mount Dragonjaw
   rotate: false
-  xy: 76, 92
+  xy: 924, 876
   size: 32, 36
   orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Quicksand
+  rotate: false
+  xy: 296, 208
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Quicksand2
+  rotate: false
+  xy: 780, 671
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Quicksand3
+  rotate: false
+  xy: 192, 144
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Rocky Waters
+  rotate: false
+  xy: 76, 28
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Dragon Peak
