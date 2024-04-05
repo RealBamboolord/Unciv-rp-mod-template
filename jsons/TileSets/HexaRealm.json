@@ -1,0 +1,14 @@
+{
+    "useColorAsBaseTerrain": "false",
+    "fallbackTileSet": "FantasyHex",
+    "ruleVariants": {
+
+		// River pseudo-tile used in Civilopedia display only
+		"Mesa Desert+River": ["Mesa Desert","River-BottomLeft","River-Bottom","River-BottomRight"],
+
+        "Mountain+Volcano": ["Volcano"],
+        "Mountain+Dragon Peak": ["Dragon Peak"],
+
+        "Mesa Desert+Hill": ["HillM"]
+	}
+}

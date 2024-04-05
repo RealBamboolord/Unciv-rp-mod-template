@@ -1,0 +1,10 @@
+{
+    "useColorAsBaseTerrain": "false",
+    "fallbackTileSet": null,
+    "ruleVariants": {
+
+        "Mesa Desert+Grand Mesa": ["Grand MesaM"],
+
+        "Mesa Desert+Hill": ["Mesa DesertHill"]
+    }
+}
