@@ -86,18 +86,6 @@
          	]
 	},
 	{
-		"name": "Shallow Water",
-		"type": "Water",
-		"movementCost": 3,
-		"food": 2,
-		"RGB": [230, 238, 255],
-		"uniques": [
-	    "[-1] Strength for cities built on this terrain",
-            "Considered [Desirable] when determining start locations",
-            "Every [20] tiles with this terrain will receive a major deposit of a strategic resource.",
-         	]
-	},
-	{
 		"name": "Highlands",
 		"type": "Land",
 		"movementCost": 2,
@@ -144,7 +132,7 @@
 		"type": "TerrainFeature",
 		"movementCost": 3,
 		"RGB": [230, 238, 255],
-		"occursOn": ["Coast"]
+		"occursOn": ["Mountain"]
                 "uniques": [
             "Rough terrain",
 	    "Rare feature",
