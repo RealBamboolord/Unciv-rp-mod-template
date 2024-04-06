@@ -196,7 +196,7 @@
 		"unitType": "Melee Water",
 		"movement": 3,
 		"strength": 10,
-		"cost": 60,
+		"cost": 55,
 		"requiredTech": "Mathematics",
 		"uniques": ["Uncapturable","[-50]% Strength <vs [{Military} {Water}] units> <when defending>","[+200]% Strength <vs [{Military} {Water}] units> <when attacking>","Self-destructs when attacking","Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
 		"obsoleteTech": "Gunpowder",
