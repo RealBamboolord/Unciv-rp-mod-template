@@ -178,7 +178,7 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Transport Carrack",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","Transfer Movement to [Embarked]","[+1] Movement <after discovering [Astronomy]>","Comment [Boosts Defense Strength of embarked unit it is stacked with by 20%]"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","Transfer Movement to [Embarked]","[+1] Movement <after discovering [Astronomy]>","Comment [Boosts Defense Strength of embarked unit it is stacked with by 25%]"],
 	},
 	{
 		"name": "Transport Carrack",
@@ -187,7 +187,7 @@
 		"cost": 120,
 		"requiredTech": "Navigation",
 		//"upgradesTo": "Caravel",
-		"uniques": ["Transfer Movement to [Embarked]","Comment [Boosts Defense Strength of embarked unit it is stacked with by 35%]"],
+		"uniques": ["Transfer Movement to [Embarked]","Comment [Boosts Defense Strength of embarked unit it is stacked with by 40%]"],
 	},
 
 	//Self Destruction Vessels
