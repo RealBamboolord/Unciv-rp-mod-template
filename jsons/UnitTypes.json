@@ -1,0 +1,131 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+    },
+    {
+        "name": "Sword",
+        "movementType": "Land"
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+    },
+    {
+        "name": "Gunpowder",
+        "movementType": "Land"
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+    },
+    {
+        "name": "Archery",
+        "movementType": "Land"
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+    },
+    {
+        "name": "Ranged Gunpowder",
+        "movementType": "Land"
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+    },
+    {
+        "name": "Scout",
+        "movementType": "Land"
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+    },
+    {
+        "name": "Mounted",
+        "movementType": "Land"
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+    },
+    {
+        "name": "Armored",
+        "movementType": "Land"
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+    },
+    {
+        "name": "Siege",
+        "movementType": "Land"
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+    },
+    {
+        "name": "Civilian Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "Melee Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "Ranged Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "Submarine",
+        "movementType": "Water",
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+    },
+    {
+        "name": "Aircraft Carrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "Fighter",
+        "movementType": "Air",
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
+    },
+    {
+        "name": "Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Atomic Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+    },
+    {
+        "name": "Helicopter",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles","[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+    },
+
+    // Deprecated unit types required for mods without a UnitTypes.json file to work
+
+    {
+        "name": "Melee",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged",
+        "movementType": "Land"
+    },
+    {
+        "name": "Armor",
+        "movementType": "Land"
+    },
+    {
+        "name": "WaterCivilian",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterMelee",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterRanged",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterSubmarine",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterAircraftCarrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "AtomicBomber",
+        "movementType": "Air"
+    }
+]
