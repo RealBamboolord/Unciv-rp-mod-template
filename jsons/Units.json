@@ -220,7 +220,7 @@
 		"strength": 20,
 		"cost": 150,
 		"requiredTech": "Chemistry",
-		"uniques": ["Uncapturable","Invisible to non-adjacent units","[-25]% Strength <vs [{Military} {Water}] units> <when defending>","[+200]% Strength <vs [{Military} {Water}] units> <when attacking>","Self-destructs when attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Uncapturable","Invisible to non-adjacent units","[-25]% Strength <vs [{Military} {Water}] units> <when defending>","[+200]% Strength <vs cities> <when attacking>","[+200]% Strength <vs [{Military} {Water}] units> <when attacking>","Self-destructs when attacking","Never appears as a Barbarian unit"],
 		"obsoleteTech": "Steam Power",
 		"attackSound": "bombing"
 	},
