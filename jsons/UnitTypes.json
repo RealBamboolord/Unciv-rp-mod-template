@@ -6,42 +6,42 @@
     {
         "name": "Sword",
         "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
     },
     {
         "name": "Gunpowder",
         "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
     },
     {
         "name": "Archery",
         "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
     },
     {
         "name": "Ranged Gunpowder",
         "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
     },
     {
         "name": "Scout",
         "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
     },
     {
         "name": "Mounted",
         "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
     },
     {
         "name": "Armored",
         "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
     },
     {
         "name": "Siege",
         "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
     },
     {
         "name": "Civilian Water",
@@ -87,7 +87,7 @@
     {
         "name": "Helicopter",
         "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles","[+15]% Strength when stacked with [Transport Galley]","[+20]% Strength when stacked with [Transport Cog]","[+35]% Strength when stacked with [Transport Carrack]"]
+        "uniques": ["Can pass through impassable tiles","[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
     },
 
     // Deprecated unit types required for mods without a UnitTypes.json file to work
