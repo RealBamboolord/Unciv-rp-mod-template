@@ -47,7 +47,7 @@
 		"strength": 6,
 		"cost": 25,
 		"requiredTech": "Sailing",
-		"uniques": ["[+1] Sight", "[+25]% Strength <vs [Ranged] units> <when defending> <with [66]% chance>", "May withdraw before melee ([33]%)","Ignores terrain cost", "Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"uniques": ["Uncapturable","[+1] Sight", "[+25]% Strength <vs [Ranged] units> <when defending> <with [66]% chance>", "May withdraw before melee ([33]%)","Ignores terrain cost", "Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -198,7 +198,7 @@
 		"strength": 10,
 		"cost": 60,
 		"requiredTech": "Mathematics",
-		"uniques": ["[-50]% Strength <vs [{Military} {Water}] units> <when defending>","[+200]% Strength <vs [{Military} {Water}] units> <when attacking>","Self-destructs when attacking","Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"uniques": ["Uncapturable","[-50]% Strength <vs [{Military} {Water}] units> <when defending>","[+200]% Strength <vs [{Military} {Water}] units> <when attacking>","Self-destructs when attacking","Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "fire"
 	},
@@ -209,7 +209,7 @@
 		"strength": 20,
 		"cost": 120,
 		"requiredTech": "Gunpowder",
-		"uniques": ["Fire Ship","[-25]% Strength <vs [{Military} {Water}] units> <when defending>","[+200]% Strength <vs [{Military} {Water}] units> <when attacking>","Self-destructs when attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Uncapturable","Fire Ship","[-25]% Strength <vs [{Military} {Water}] units> <when defending>","[+200]% Strength <vs [{Military} {Water}] units> <when attacking>","Self-destructs when attacking","Never appears as a Barbarian unit"],
 		"obsoleteTech": "Steam Power",
 		"attackSound": "fire"
 	},
@@ -220,7 +220,7 @@
 		"strength": 20,
 		"cost": 150,
 		"requiredTech": "Chemistry",
-		"uniques": ["Invisible to non-adjacent units","[-25]% Strength <vs [{Military} {Water}] units> <when defending>","[+200]% Strength <vs [{Military} {Water}] units> <when attacking>","Self-destructs when attacking","Never appears as a Barbarian unit"],
+		"uniques": ["Uncapturable","Invisible to non-adjacent units","[-25]% Strength <vs [{Military} {Water}] units> <when defending>","[+200]% Strength <vs [{Military} {Water}] units> <when attacking>","Self-destructs when attacking","Never appears as a Barbarian unit"],
 		"obsoleteTech": "Steam Power",
 		"attackSound": "bombing"
 	},
