@@ -1,4 +1,5 @@
 [
+	//Recon
   {
 		"name": "Scout",
 		"unitType": "Scout",
@@ -36,6 +37,194 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
+
+	//Naval expansion
+	//Melee
+	{
+		"name": "Scouting Boat",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 6,
+		"cost": 25,
+		"requiredTech": "Sailing",
+		"uniques": ["[+1] Sight", "[+25]% Strength <vs [Ranged] units> <when defending> <with [66]% chance>", "May withdraw before melee ([33]%)","Ignores terrain cost", "Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Galley",
+		"unitType": "Melee Water",
+		"uniqueTo": "Barbarians",
+		"replaces": "Scouting Boat",
+		"movement": 3,
+		"strength": 7,
+		"cost": 40,
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Trireme",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+		//Barbarian unique naval unit
+	},
+	{
+		"name": "Trireme",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Cog",
+		"obsoleteTech": "Compass",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Cog",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 18,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Astronomy",
+		"upgradesTo": "Caravel",
+		"uniques": ["Cannot enter ocean tiles","Can move after attacking","[+15]% Strength when stacked with [Civilian Water]"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Caravel",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 23,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)", "Can see invisible [Water] units", "Can move after attacking"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	
+	//Ranged
+	{
+		"name": "Archer Galley",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 8,
+		"cost": 56,
+		"requiredTech": "Sailing",
+		"uniques": ["Only available <after discovering [Archery]>","[+25]% Strength <vs cities> <when defending>", "[+25]% Strength <vs [Land] units> <when attacking>", "Limited to [5] per Civilization", "Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Compass",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Catapult Galley",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 7,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "Sailing",
+		"uniques": ["Only available <after discovering [Mathematics]>","Must set up to ranged attack","[+50]% Strength <vs cities> <when attacking>", "[-50]% Strength <vs [Military] units> <when attacking> <with [50]% chance>", "Limited to [3] per Civilization", "Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Catapult Galleass",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Galleass",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 17,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": ["Cannot enter ocean tiles"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Catapult Galleass",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 20,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": ["Only available <after discovering [Mathematics]>","Must set up to ranged attack","[+50]% Strength <vs cities> <when attacking>","[-33]% Strength <vs [Military] units> <when attacking> <with [33]% chance>","Limited to [3] per Civilization","Cannot enter ocean tiles"],
+		"attackSound": "throw"
+	},
+
+	//Transport
+	{
+		"name": "Transport Galley",
+		"unitType": "Civilian Water",
+		"movement": 3,
+		"cost": 55,
+		"requiredTech": "Optics",
+		"obsoleteTech": "Compass",
+		"uniques": ["No Sight","Cannot enter ocean tiles", "Comment [Boosts Defense Strength of embarked unit it is stacked with by 15%]"],
+		"upgradesTo": "Transport Cog",
+		"obsoleteTech": "Compass",
+	},
+	{
+		"name": "Transport Cog",
+		"unitType": "Civilian Water",
+		"movement": 3,
+		"cost": 90,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Transport Carrack",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>","Transfer Movement to [Embarked]","[+1] Movement <after discovering [Astronomy]>","Comment [Boosts Defense Strength of embarked unit it is stacked with by 20%]"],
+	},
+	{
+		"name": "Transport Carrack",
+		"unitType": "Civilian Water",
+		"movement": 5,
+		"cost": 120,
+		"requiredTech": "Navigation",
+		//"upgradesTo": "Caravel",
+		"uniques": ["Transfer Movement to [Embarked]","Comment [Boosts Defense Strength of embarked unit it is stacked with by 35%]"],
+	},
+
+	//Self Destruction Vessels
+	{
+		"name": "Fire Ship",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 10,
+		"cost": 60,
+		"requiredTech": "Mathematics",
+		"uniques": ["[-50]% Strength <vs [{Military} {Water}] units> <when defending>","[+200]% Strength <vs [{Military} {Water}] units> <when attacking>","Self-destructs when attacking","Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "fire"
+	},
+	{
+		"name": "Powder Filled Fire Ship",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Gunpowder",
+		"uniques": ["Fire Ship","[-25]% Strength <vs [{Military} {Water}] units> <when defending>","[+200]% Strength <vs [{Military} {Water}] units> <when attacking>","Self-destructs when attacking","Never appears as a Barbarian unit"],
+		"obsoleteTech": "Steam Power",
+		"attackSound": "fire"
+	},
+	{
+		"name": "Hellburner",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 20,
+		"cost": 150,
+		"requiredTech": "Chemistry",
+		"uniques": ["Invisible to non-adjacent units","[-25]% Strength <vs [{Military} {Water}] units> <when defending>","[+200]% Strength <vs [{Military} {Water}] units> <when attacking>","Self-destructs when attacking","Never appears as a Barbarian unit"],
+		"obsoleteTech": "Steam Power",
+		"attackSound": "bombing"
+	},
+	
 	//Unique choices
 	{
 		"name": "UU 1",
