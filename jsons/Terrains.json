@@ -173,7 +173,7 @@
 		"defenceBonus": -0.15,
 		"occursOn": ["Ocean","Coast"],
 		"uniques": [
-			"Rare feature",
+			"Rare feature","Units ending their turn on this terrain take [15] damage"
 		]
 	},
 	{
