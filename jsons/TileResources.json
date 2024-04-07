@@ -59,7 +59,7 @@
 	{
 		"name": "Cattle",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Mesa Desert","Grassland","Hill"],
+		"terrainsCanBeFoundOn": ["Mesa Desert","Grassland","Highlands"],
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
@@ -69,7 +69,7 @@
 	{
 		"name": "Sheep",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Mesa Desert","Hill"],
+		"terrainsCanBeFoundOn": ["Mesa Desert","Highlands","Hill"],
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"food": 1},
@@ -79,7 +79,7 @@
 	{
 		"name": "Deer",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Hill","Forest","Tundra"], // Tundra only if lowland
+		"terrainsCanBeFoundOn": ["Highlands","Forest","Tundra"], // Tundra only if lowland
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
@@ -114,7 +114,7 @@
 	{
 		"name": "Stone",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Magma Ravine","Hill","Mesa Desert","Grassland","Desert","Tundra"],
+		"terrainsCanBeFoundOn": ["Magma Ravine","Highlands","Mesa Desert","Grassland","Desert","Tundra"],
 		"production": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
@@ -144,7 +144,7 @@
 		"name": "Horses",
 		"resourceType": "Strategic",
 		"revealedBy": "Animal Husbandry",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Mesa Desert","Hill"], // Hill only if plains or grassland
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Mesa Desert","Highlands","Hill"], // Hill only if plains or grassland
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
@@ -163,7 +163,7 @@
 		"name": "Iron",
 		"resourceType": "Strategic",
 		"revealedBy": "Iron Working",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Magma Ravine","Mesa Desert","Hill","Marsh"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Highlands","Magma Ravine","Mesa Desert","Hill","Marsh"],
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": ["Guaranteed with Strategic Balance resource option",
@@ -187,7 +187,7 @@
 		"name": "Coal",
 		"resourceType": "Strategic",
 		"revealedBy": "Industrialization",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Mangrove Forest","Mesa Desert","Hill","Jungle","Forest","Marsh"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Mangrove Forest","Mesa Desert","Highlands","Hill","Jungle","Forest","Marsh"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -266,7 +266,7 @@
 	{
 		"name": "Furs",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Geothermal Plains","Hill","Forest","Tundra"],
+		"terrainsCanBeFoundOn": ["Geothermal Plains","Highlands","Forest","Tundra"],
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
@@ -301,7 +301,7 @@
 	{
 		"name": "Gems",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Mesa Desert","Geothermal Plains","Jungle","Forest","Hill"],
+		"terrainsCanBeFoundOn": ["Mesa Desert","Geothermal Plains","Jungle","Forest","Highlands","Hill"],
 		"gold": 3,
 		"improvement": "Mine",
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
@@ -315,7 +315,7 @@
 	{
 		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Mesa Desert","Magma Ravine","Desert","Hill","Forest","Jungle"],
+		"terrainsCanBeFoundOn": ["Highlands","Mesa Desert","Magma Ravine","Desert","Hill","Forest","Jungle"],
 		"gold": 2,
 		"improvement": "Mine",
 		"uniques": ["Generated with weight [25] <in [Desert] Regions>",
@@ -329,7 +329,7 @@
 	{
 		"name": "Silver",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Mesa Desert","Magma Ravine","Hill","Forest","Jungle","Tundra","Grassland"],
+		"terrainsCanBeFoundOn": ["Highlands","Mesa Desert","Magma Ravine","Hill","Forest","Jungle","Tundra","Grassland"],
 		"gold": 2,
 		"improvement": "Mine",
 		"uniques": ["Generated with weight [25] <in [Tundra] Regions>",
@@ -421,7 +421,7 @@
 	{
 		"name": "Marble",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Mesa Desert","Desert","Plains","Hill","Grassland"],
+		"terrainsCanBeFoundOn": ["Highlands","Mesa Desert","Desert","Plains","Hill","Grassland"],
 		"gold": 2,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
@@ -532,7 +532,7 @@
 	{
 		"name": "Salt",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Mesa Desert","Desert","Tundra","Plains","Forest"],
+		"terrainsCanBeFoundOn": ["Highlands","Mesa Desert","Desert","Tundra","Plains","Forest"],
 		"gold": 1,
 		"food": 1,
 		"improvement": "Mine",
@@ -590,7 +590,7 @@
 	{
 		"name": "Bulls",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Mesa Desert","Hill", "Grassland"],
+		"terrainsCanBeFoundOn": ["Highlands","Mesa Desert","Hill", "Grassland"],
 		"gold": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1,"gold": 1},
@@ -614,7 +614,7 @@
 	{
 		"name": "Llamas",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill", "Grassland"],
+		"terrainsCanBeFoundOn": ["Highlands","Hill", "Grassland"],
 		"gold": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"gold": 1, "production": 1},
@@ -622,7 +622,7 @@
 	{
 		"name": "Goats",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill"],
+		"terrainsCanBeFoundOn": ["Highlands","Hill"],
 		"gold": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"gold": 1, "food": 1},
@@ -678,7 +678,7 @@
 	{
 		"name": "Pumpkins",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Hill", "Plains"],
+		"terrainsCanBeFoundOn": ["Highlands","Hill", "Plains"],
 		"food": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"food": 1},
