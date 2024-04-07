@@ -161,7 +161,7 @@
 		"defenceBonus": -0.2,
 		"occursOn": ["Desert"],
 		"uniques": [
-			"Considered [Undesirable] when determining start locations","Rare feature",
+			"Only [All Road] improvements may be built on this tile","Considered [Undesirable] when determining start locations","Rare feature",
 			"Never receives any resources"
 		]
 	},
@@ -173,7 +173,7 @@
 		"defenceBonus": -0.15,
 		"occursOn": ["Ocean","Coast"],
 		"uniques": [
-			"Rare feature","Units ending their turn on this terrain take [15] damage"
+			"Rare feature","Units ending their turn on this terrain take [15] damage","Never receives any resources"
 		]
 	},
 	{
