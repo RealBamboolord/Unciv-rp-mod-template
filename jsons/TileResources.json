@@ -460,6 +460,17 @@
 					"Generated near City States with weight [15]"]
 	},
 	{
+		"name": "Sunken Treasures",
+		"resourceType": "Luxury",
+		"revealedBy": "Compass",
+		"terrainsCanBeFoundOn": ["Atoll"],
+		"gold": 4,
+		//"culture": 1,
+		//"science": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated with weight [10]"]
+	},
+	{
 		"name": "Jewelry",
 		"resourceType": "Luxury",
 		"gold": 2,
