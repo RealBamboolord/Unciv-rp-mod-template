@@ -125,7 +125,7 @@
 	{
 		"name": "Fish",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Mangrove Forest","Coast"],
+		"terrainsCanBeFoundOn": ["Mangrove Forest","Coast","Shallow Waters"],
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [10] tiles <in [Featureless] [Coast] tiles>"]
@@ -458,6 +458,16 @@
 					"Generated with weight [10] <in [Grassland] Regions>",
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]"]
+	},
+	{
+		"name": "Coral",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast","Shallow Waters"],
+		"gold": 1,
+		"food": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated with weight [5] <in [Coast] tiles>",
+					"Generated with weight [25] <in [Shallow Waters] tiles>"]
 	},
 	{
 		"name": "Sunken Treasures",
