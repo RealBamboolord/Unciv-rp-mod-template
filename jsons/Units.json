@@ -47,7 +47,7 @@
 		"strength": 6,
 		"cost": 25,
 		"requiredTech": "Sailing",
-		"uniques": ["Can pass through impassable tiles","Uncapturable","[+1] Sight", "[+25]% Strength <vs [Ranged] units> <when defending> <with [66]% chance>", "May withdraw before melee ([33]%)","Ignores terrain cost", "Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"uniques": ["Ignores terrain cost","Can pass through impassable tiles","Uncapturable","[+1] Sight", "[+25]% Strength <vs [Ranged] units> <when defending> <with [66]% chance>", "May withdraw before melee ([33]%)","Ignores terrain cost", "Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -60,7 +60,7 @@
 		"movement": 3,
 		"strength": 7,
 		"cost": 40,
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Ignores terrain cost","Cannot enter ocean tiles"],
 		"upgradesTo": "Trireme",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
