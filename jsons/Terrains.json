@@ -119,7 +119,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Coast","Plains"],
+		"occursOn": ["Coast","Plains","Grassland"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
