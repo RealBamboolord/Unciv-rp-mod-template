@@ -76,4 +76,27 @@
 		"name": "Ignore Zone of Control",
 		"uniques": ["Ignores Zone of Control"]
 	}
+
+	//Terrains
+	
+	{
+		"name": "Desert Affinity",
+		"uniques": ["Comment [This unit gains immunity to quicksand damage]"]
+	}
+	{
+		"name": "Quicksand Counter II",
+		"uniques": [
+			"Comment [This unit will die instantly if it ends two more consecutive turns in quicksand]",
+			"This Unit gains the [Quicksand Counter I] promotion <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity> <hidden from users>", 
+			"This Unit loses the [Quicksand Counter II] promotion <upon ending a turn in a [non-[Quicksand]] tile> <hidden from users>",
+		]
+	}
+	{
+		"name": "Quicksand Counter I",
+		"uniques": [
+			"Comment [This unit will die instantly if it ends one more consecutive turn in quicksand]",
+			"This Unit takes [100] damage <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+			"This Unit loses the [Quicksand Counter I] promotion <upon ending a turn in a [non-[Quicksand]] tile> <hidden from users>"
+		]
+	}
 ]
