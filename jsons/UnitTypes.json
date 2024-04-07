@@ -1,47 +1,83 @@
 [
     {
         "name": "Civilian",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": [
+            "This Unit takes [15] damage <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+            "This Unit gains the [Quicksand Counter II] promotion <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+        ]
     },
     {
         "name": "Sword",
-        "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
+        "movementType": "Land",
+        "uniques": [
+            "[+15]% Strength when stacked with [Transport Galley] <hidden from users>","[+25]% Strength when stacked with [Transport Cog] <hidden from users>","[+40]% Strength when stacked with [Transport Carrack] <hidden from users>",
+            "This Unit takes [15] damage <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+            "This Unit gains the [Quicksand Counter II] promotion <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+        ]
     },
     {
         "name": "Gunpowder",
-        "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
+        "movementType": "Land",
+        "uniques": [
+            "[+15]% Strength when stacked with [Transport Galley] <hidden from users>","[+25]% Strength when stacked with [Transport Cog] <hidden from users>","[+40]% Strength when stacked with [Transport Carrack] <hidden from users>",
+            "This Unit takes [15] damage <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+            "This Unit gains the [Quicksand Counter II] promotion <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+        ]
     },
     {
         "name": "Archery",
-        "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
+        "movementType": "Land",
+        "uniques": [
+            "[+15]% Strength when stacked with [Transport Galley] <hidden from users>","[+25]% Strength when stacked with [Transport Cog] <hidden from users>","[+40]% Strength when stacked with [Transport Carrack] <hidden from users>",
+            "This Unit takes [15] damage <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+            "This Unit gains the [Quicksand Counter II] promotion <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+        ]
     },
     {
         "name": "Ranged Gunpowder",
-        "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
+        "movementType": "Land",
+        "uniques": [
+            "[+15]% Strength when stacked with [Transport Galley] <hidden from users>","[+25]% Strength when stacked with [Transport Cog] <hidden from users>","[+40]% Strength when stacked with [Transport Carrack] <hidden from users>",
+            "This Unit takes [15] damage <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+            "This Unit gains the [Quicksand Counter II] promotion <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+        ]
     },
     {
         "name": "Scout",
-        "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
+        "movementType": "Land",
+        "uniques": [
+            "[+15]% Strength when stacked with [Transport Galley] <hidden from users>","[+25]% Strength when stacked with [Transport Cog] <hidden from users>","[+40]% Strength when stacked with [Transport Carrack] <hidden from users>",
+            "This Unit takes [15] damage <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+            "This Unit gains the [Quicksand Counter II] promotion <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+        ]
     },
     {
         "name": "Mounted",
-        "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
+        "movementType": "Land",
+        "uniques": [
+            "[+15]% Strength when stacked with [Transport Galley] <hidden from users>","[+25]% Strength when stacked with [Transport Cog] <hidden from users>","[+40]% Strength when stacked with [Transport Carrack] <hidden from users>",
+            "This Unit takes [15] damage <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+            "This Unit gains the [Quicksand Counter II] promotion <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+        ]
     },
     {
         "name": "Armored",
-        "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
+        "movementType": "Land",
+        "uniques": [
+            "[+15]% Strength when stacked with [Transport Galley] <hidden from users>","[+25]% Strength when stacked with [Transport Cog] <hidden from users>","[+40]% Strength when stacked with [Transport Carrack] <hidden from users>",
+            "This Unit takes [15] damage <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+            "This Unit gains the [Quicksand Counter II] promotion <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+        ]
     },
     {
         "name": "Siege",
-        "movementType": "Land"
-        "uniques": ["[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
+        "movementType": "Land",
+        "uniques": [
+            "[+15]% Strength when stacked with [Transport Galley] <hidden from users>","[+25]% Strength when stacked with [Transport Cog] <hidden from users>","[+40]% Strength when stacked with [Transport Carrack] <hidden from users>",
+            "This Unit takes [15] damage <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+            "This Unit gains the [Quicksand Counter II] promotion <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+        ]
     },
     {
         "name": "Civilian Water",
@@ -87,7 +123,12 @@
     {
         "name": "Helicopter",
         "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles","[+15]% Strength when stacked with [Transport Galley]","[+25]% Strength when stacked with [Transport Cog]","[+40]% Strength when stacked with [Transport Carrack]"]
+        "uniques": [
+            "Can pass through impassable tiles",
+            "[+15]% Strength when stacked with [Transport Galley] <hidden from users>","[+25]% Strength when stacked with [Transport Cog] <hidden from users>","[+40]% Strength when stacked with [Transport Carrack] <hidden from users>",
+            "This Unit takes [15] damage <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+            "This Unit gains the [Quicksand Counter II] promotion <upon ending a turn in a [Quicksand] tile> <for units without [Desert Affinity]> <hidden from users>",
+        ]
     },
 
     // Deprecated unit types required for mods without a UnitTypes.json file to work
