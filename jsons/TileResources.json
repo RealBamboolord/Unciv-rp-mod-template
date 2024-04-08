@@ -595,7 +595,7 @@
 	{
 		"name": "Pigs",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Mangrove Forest","Grassland", "Plains"],
+		"terrainsCanBeFoundOn": ["Magma Ravine","Mangrove Forest","Grassland", "Plains"],
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"food": 2,"production": -1},
