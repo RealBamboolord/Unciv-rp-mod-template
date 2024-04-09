@@ -3,7 +3,7 @@
 		"name": "Snow",
 		"type": "Land",
 		"movementCost": 1,
-		"RGB": [230, 238, 255], //Darker229, 229, 255
+		"RGB": [230, 238, 255],
 		"uniques": [
             "Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
             "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
@@ -37,6 +37,7 @@
 	{
 		"name": "Dragon Peak",
 		"type": "TerrainFeature",
+		"RGB": [168, 57, 38],
 		"science": 1,
 		"gold": 2,
 		"production": 2,
@@ -48,6 +49,7 @@
 	{
 		"name": "Mount Dragonjaw",
 		"type": "NaturalWonder",
+		"RGB": [168, 57, 38],
 		"production": 4,
 		"gold": 3,
 		"occursOn": ["Plains","Desert","Tundra"],
@@ -65,7 +67,7 @@
 		"type": "Land",
 		"movementCost": 1,
 		"gold": 1,
-		"RGB": [230, 238, 255],
+		"RGB": [212, 118, 23],
 		"uniques": [
 	    "[+2] Strength for cities built on this terrain",
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
@@ -77,7 +79,7 @@
 		"type": "Land",
 		"movementCost": 1,
 		"production": 1,
-		"RGB": [230, 238, 255],
+		"RGB": [246, 47, 12],
 		"uniques": [
             "Considered [Desirable] when determining start locations",
             "Only [Oil well] improvements may be built on this tile","Rough terrain",
@@ -90,7 +92,7 @@
 		"type": "Land",
 		"movementCost": 2,
 		"production": 2,
-		"RGB": [230, 238, 255],
+		"RGB": [125, 199, 150],
 		"uniques": [
             "[+2] Strength for cities built on this terrain",
             "Rough terrain","Considered [Desirable] when determining start locations",
@@ -104,7 +106,7 @@
 		"name": "Shallow Waters",
 		"type": "TerrainFeature",
 		"movementCost": 3,
-		"RGB": [230, 238, 255],
+		"RGB": [125, 199, 192],
 		"occursOn": ["Coast"]
                 "uniques": [
             "Rough terrain",
@@ -131,7 +133,7 @@
 		"name": "Volcano",
 		"type": "TerrainFeature",
 		"movementCost": 3,
-		"RGB": [230, 238, 255],
+		"RGB": [90, 50, 21],
 		"occursOn": ["Mountain"]
                 "uniques": [
             "Rough terrain",
